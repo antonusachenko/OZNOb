@@ -1,0 +1,114 @@
+body {
+    width: 300px;
+    height: 124px;
+    margin: 0;
+    padding: 0;
+}
+
+#oznob-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+#oznob-header h1 {
+    font-family: Roboto, system-ui, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+}
+#oznob-header h1 span{
+    color: rgb(230, 230, 230);
+}
+
+.oznob-header {
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    /* padding-bottom: 3px; */
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: red;
+    background-image: url("/assets/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: center;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.oznob-header h1{
+    font-family: Gill Sans, system-ui, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: -30px;
+    color:rgb(255, 255, 255);
+}
+
+.oznob-header h1 span{
+    color: rgb(255, 134, 164);
+}
+
+.oznob-buttons p {
+    margin: 10px 0 5px 10px;
+}
+
+.button {
+    font-family: Roboto, system-ui, sans-serif;
+    align-items: center;
+    border: 1px solid rgb( 218, 220, 224 );
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb( 26, 115, 232 );
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-weight: 500;
+    height: 32px;
+    justify-content: center;
+    min-width: 5.14em;
+    outline-width: 0;
+    padding: 8px 16px 10px;
+    position: relative;
+    user-select: none;
+    background: white;
+    margin: 10px 0 5px 10px;
+}
+
+.button:hover {
+    background: rgba( 66, 133, 244, .04 );
+    border-color: rgb(210, 227, 252);
+}
+
+.button.primary {
+    background: rgb( 26, 115, 232 );
+    color: #fff;
+    border-width: 3px;
+    border-color: rgb(149, 195, 255);
+    
+    /* box-shadow: 1px 2px 3px 1px rgba(255, 239, 94, 0.918), 0 1px 3px 1px rgba(60, 46, 187, 0.507); */
+}
+
+.button.primary:hover {
+    background: rgb(255, 75, 144);
+    border-color: rgb(255, 151, 191);
+}
+
+.button.primary:active{
+    background: rgb(255, 100, 134);
+    border-color: rgb(255, 158, 174);
+}
+
+textarea {
+    border: 2px solid rgba( 26, 115, 232, 0.4 );
+    padding: 8px;
+    border-radius: 4px;
+    display: block;
+    width: 224px;
+    margin-top: 5px;
+}
