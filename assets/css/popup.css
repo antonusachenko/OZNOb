@@ -1,6 +1,6 @@
 body {
     width: 300px;
-    height: 124px;
+    height: 50px;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,7 @@ body {
     font-family: Roboto, system-ui, sans-serif;
     font-size: 18px;
     margin: 0;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     color:rgb(255, 255, 255);
 }
 #oznob-header h1 span{
@@ -22,11 +22,11 @@ body {
 }
 
 .oznob-header {
-    width: 290px;
+    width: 300px;
     height: 50px;
     border-radius: 5px;
-    padding: 5px;
-    /* padding-bottom: 3px; */
+    /* padding: 5px; */
+    padding-bottom: 5px;
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -35,7 +35,8 @@ body {
     background-image: url("/assets/img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-origin: padding-box;
+    /* background-origin: padding-box; */
+    background-origin: content-box;
     background-position: center;
     /* position: absolute; */
     /* bottom: 0; */
@@ -47,6 +48,7 @@ body {
     font-style: italic;
     margin: 0;
     margin-bottom: -30px;
+    position: absolute;
     color:rgb(255, 255, 255);
 }
 
